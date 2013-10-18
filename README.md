@@ -1,6 +1,6 @@
 # Newrelic::AWS
 
-[NewRelic](http://newrelic.com/) instrumentation for the [official AWS SDK](http://aws.amazon.com/sdkforruby/).
+Unofficial [NewRelic](http://newrelic.com/) instrumentation for the [official AWS SDK](http://aws.amazon.com/sdkforruby/).
 
 ## Installation
 
