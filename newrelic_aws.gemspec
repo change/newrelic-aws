@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email       = ["kyle@change.org"]
   gem.description = %q{Unofficial New Relic Instrumentation for the official AWS SDK}
   gem.summary     = %q{Unofficial New Relic Instrumentation for the official AWS SDK}
-  gem.homepage    = "http://github.com/kylev/newrelic_aws"
+  gem.homepage    = "http://github.com/change/newrelic_aws"
   gem.license     = "MIT"
 
   gem.files         = Dir["{lib}/**/*.rb", "LICENSE", "*.md"]
