@@ -37,6 +37,15 @@ DependencyDetection.defer do
       add_method_tracer :head
     end
 
+    AWS::SQS::Queue.class_eval do
+      add_method_tracer :batch_delete
+      add_method_tracer :batch_send
+      add_method_tracer :exists?
+      add_method_tracer :poll
+      add_method_tracer :receive_message
+      add_method_tracer :send_message
+    end
+
     AWS::SimpleEmailService.class_eval do
       add_method_tracer :send_email
       add_method_tracer :send_raw_email
