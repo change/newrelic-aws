@@ -2,6 +2,9 @@
 
 Unofficial [NewRelic](http://newrelic.com/) instrumentation for the [official AWS SDK](http://aws.amazon.com/sdkforruby/).
 
+At present, this is an embryonic set of instrumentation focussing primarily on the underlying client
+and S3 functionality plus a little bit of SQS and Simple Email Service. Pull requests are welcome!
+
 ## Installation
 
 Add this line to your application's Gemfile:
