@@ -9,7 +9,7 @@ and S3 functionality plus a little bit of SQS and Simple Email Service. Pull req
 
 Add this line to your application's Gemfile:
 
-    gem 'newrelic_aws'
+    gem 'newrelic-aws'
 
 And then execute:
 
@@ -17,7 +17,7 @@ And then execute:
 
 Or install it yourself with:
 
-    $ gem install newrelic_aws
+    $ gem install newrelic-aws
 
 If you're having trouble with NewRelic attepmting to instrument the old `AWS::S3` [gem](https://github.com/marcel/aws-s3)
 (the one not created by Amazon that is mostly unmaintained) you may want to add `disable_aws-s3: true` to your `newrelic.yml`
