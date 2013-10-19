@@ -1,2 +1,2 @@
-require "newrelic_aws/instrumentation"
-require "newrelic_aws/version"
+require "newrelic-aws/instrumentation"
+require "newrelic-aws/version"
