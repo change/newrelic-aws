@@ -2,8 +2,8 @@
 require File.expand_path('../lib/newrelic-aws/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors     = ["Kyle VanderBeek"]
-  gem.email       = ["kyle@change.org"]
+  gem.authors     = ['Kyle VanderBeek']
+  gem.email       = ['kylev@kylev.com']
   gem.description = %q{Unofficial New Relic Instrumentation for the official AWS SDK}
   gem.summary     = %q{Unofficial New Relic Instrumentation for the official AWS SDK}
   gem.homepage    = "http://github.com/change/newrelic-aws"
